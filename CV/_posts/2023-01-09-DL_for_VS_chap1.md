@@ -3,9 +3,9 @@ layout: post
 title: "[비전 시스템을 위한 딥러닝] chapter1 정리"
 subtitle: ""
 categories:
-    - Computer Vision
+    - Computer-Vision
 tags:
-    - [CV]
+    - [cv]
 
 toc: true
 published: false

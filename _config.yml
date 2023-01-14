@@ -48,9 +48,9 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Deep Learning
+  - title:             Deep-Learning
     url:               /DL/
-  - title:             Computer Vision
+  - title:             Computer-Vision
     url:               /CV/
   - title:             About
     url:               /about/
