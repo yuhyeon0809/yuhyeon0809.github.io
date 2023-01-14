@@ -1,17 +1,13 @@
 ---
 layout: post
 title: "[비전 시스템을 위한 딥러닝] chapter1 정리"
-subtitle: ""
-categories:
-    - Computer_Vision
-tags:
-    - [cv]
-
-toc: true
-published: false
+description: >
+  책 [비전 시스템을 위한 딥러닝]을 읽고 정리한 내용입니다. 
+sitemap: false
+hide_last_modified: true
 
 data: 2023-01-09
-last_modefied_at: 2023-01-09
+last_modefied_at: 2023-01-14
 ---
 
 !!작성중

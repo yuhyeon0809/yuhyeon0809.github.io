@@ -1,16 +1,13 @@
 ---
 layout: post
 title: "[Deep Learning] Batch Normalization(배치 정규화)"
-subtitle: "배치정규화 개념 정리 포스트"
-categories:
-    - Deep_Learning
-tags:
-    - [dl]
+description: >
+  배치 정규화 개념 정리 포스트트
+sitemap: false
+hide_last_modified: true
 
-toc: true
-
-data: 2023-01-06
-last_modefied_at: 2023-01-09
+data: 2023-01-09
+last_modefied_at: 2023-01-14
 ---
 수정중!!  
 Batch Normalization 개념 정리 포스트
