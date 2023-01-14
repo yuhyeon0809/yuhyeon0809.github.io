@@ -48,10 +48,10 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Deep-Learning
-    url:               /DL/
-  - title:             Computer-Vision
-    url:               /CV/
+  - title:             Deep_Learning
+    url:               /dl/
+  - title:             Computer_Vision
+    url:               /cv/
   - title:             About
     url:               /about/
 
