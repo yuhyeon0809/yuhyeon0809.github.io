@@ -5,7 +5,7 @@ subtitle: ""
 categories:
     - Computer Vision
 tags:
-    - [Notes, CV]
+    - [CV]
 
 toc: true
 published: false

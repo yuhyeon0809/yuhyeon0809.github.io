@@ -5,7 +5,7 @@ subtitle: "배치정규화 개념 정리 포스트"
 categories:
     - Deep Learning
 tags:
-    - [Notes, DL]
+    - [DL]
 
 toc: true
 
