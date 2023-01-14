@@ -3,7 +3,7 @@ layout: post
 title: "[Deep Learning] Batch Normalization(배치 정규화)"
 subtitle: "배치정규화 개념 정리 포스트"
 categories:
-    - Notes
+    - Deep Learning
 tags:
     - [Notes, DL]
 

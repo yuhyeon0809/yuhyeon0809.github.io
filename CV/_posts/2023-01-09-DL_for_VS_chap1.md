@@ -3,7 +3,7 @@ layout: post
 title: "[비전 시스템을 위한 딥러닝] chapter1 정리"
 subtitle: ""
 categories:
-    - Notes
+    - Computer Vision
 tags:
     - [Notes, CV]
 
