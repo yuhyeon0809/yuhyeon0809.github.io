@@ -7,7 +7,7 @@ sitemap: false
 hide_last_modified: true
 
 data: 2023-01-09
-last_modefied_at: 2023-01-15
+last_modefied_at: 2023-01-16
 ---
 
 작성 중!!
@@ -65,5 +65,3 @@ last_modefied_at: 2023-01-15
 자료 출처: https://www.joongang.co.kr/article/23473802#home
 
 #### 사물 탐지와 위치 인식
-
-
