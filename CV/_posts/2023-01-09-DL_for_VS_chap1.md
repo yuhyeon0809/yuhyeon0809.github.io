@@ -9,7 +9,7 @@ hide_last_modified: true
 data: 2023-01-09
 last_modefied_at: 2023-01-18
 ---
-! 개인공부용
+```개인공부용```
 
 ![](https://velog.velcdn.com/images/yuhyeon0809/post/691b1d04-d262-4104-9a24-6a749aa77010/image.png)
 
@@ -17,9 +17,9 @@ last_modefied_at: 2023-01-18
 
 책 '비전 시스템을 위한 딥러닝'을 읽고 정리한 내용입니다. 
 
-# Part1: 딥러닝 기초
+## Part1 딥러닝 기초
 
-## Chap1: 컴퓨터 비전 입문
+## Chapter1 컴퓨터 비전 입문
 
 ### 1.1 컴퓨터 비전
 #### 컴퓨터 비전이란?
@@ -109,9 +109,24 @@ last_modefied_at: 2023-01-18
 - 이미지 추천 시스템은 질의로 들어온 이미지와 **유사한** 이미지를 제공하는 시스템이다. 
 - 쉽게 말해 **사용자 맞춤 광고**의 기반이 되는 시스템이라고 할 수 있는데, 
 - 인터넷 쇼핑몰을 예로 들면, 클라이언트가 이전에 봤거나 구매했던 상품과 (이미지가) 유사한 상품을 추천하는 시스템이다. 
+---
+
+### 1.3 컴퓨터 비전 파이프라인 전체 처리 과정
+
+#### 컴퓨터 비전 파이프라인이란?
+비전 시스템이 이미지를 인식하고 분석하는 과정에도 **대략적인 흐름**이 존재한다. 데이터를 획득하고, 처리한 다음 분석 및 인식 과정을 통해 특정한 task를 수행하는 이 일련의 단계를 _**컴퓨터 비전 파이프라인 Computer Vision Pipeline**_ 이라고 한다. 
+> ![](https://velog.velcdn.com/images/yuhyeon0809/post/5286cac4-9f65-4a0b-aaa3-025b559c0b4a/image.png)
+출처 : https://freecontent.manning.com/computer-vision-pipeline-part-1-the-big-picture/
 
 
+모터사이클이 찍힌 사진을 입력으로 받아 이 사진에 담긴 사물이 모터사이클, 자동차, 개 중 어느 것에 해당하는지 확률을 예측하는 분류기를 만든다고 가정하자. 
+> ![](https://velog.velcdn.com/images/yuhyeon0809/post/73fa14eb-20cf-458b-8164-a447c546f521/image.png)
+출처 : https://freecontent.manning.com/computer-vision-pipeline-part-1-the-big-picture/
 
-
+이 이미지는 분류 파이프라인을 통과하며 다음과 같은 과정을 거칠 것이다:
+> 1. 컴퓨터가 카메라와 같은 감지 장치를 통해 이미지를 입력받는다. 
+2. 이미지가 **전처리 과정**을 거친다. 전처리 과정에는 ```크기 조정, 흐릿하게 하기, 회전, 모양 변경, 색상 조정``` 등이 있다. 
+3. 이미지로부터 **특징**_feature_을 추출한다. 특징은 사물을 식별할 수 있는 정보로, 모터사이클을 구분할 수 있게 해주는 특징은 ```바퀴, 헤드라이트, 흙받기``` 정도가 있다. **특징 벡터** _feature vector_ 가 이 단계의 출력이 된다. 
+4. 추출된 특징을 **분류 모델** _classification model_ 에 입력한다. 여기서 입력된 특징 벡터를 보고 이미지가 속한 클래스를 예측한다. 
 
 
