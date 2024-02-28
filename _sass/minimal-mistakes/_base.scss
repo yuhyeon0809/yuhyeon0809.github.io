@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 5em; // default: 0
   padding: 0;
   color: $text-color;
   font-family: $global-font-family;
@@ -107,14 +107,18 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
-  font-style: italic;
+  // margin: 2em 1em 2em 0;
+  // padding-left: 1em;
+  // padding-right: 1em;
+  // border-left: 0.25em solid $primary-color;
+  margin: 1.5em 1em 1.5em 0em;
+  padding: 0.7em 1em 0.7em 1.5em;
+  background-color: $block-quote-background-color;
+
   border-left: 0.25em solid $primary-color;
 
   cite {
-    font-style: italic;
+    // font-style: italic;
 
     &:before {
       content: "\2014";
