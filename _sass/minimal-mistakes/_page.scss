@@ -38,15 +38,22 @@ body {
 .page {
   @include breakpoint($large) {
     float: right;
+<<<<<<< HEAD
     width: calc(100% - #{$right-sidebar-width-narrow}); 
+=======
+    width: calc(100% - #{$right-sidebar-width-narrow});
+>>>>>>> parent of 11fe17ef (edit page *)
     padding-right: $right-sidebar-width-narrow;
 
   }
 
   @include breakpoint($x-large) {
+<<<<<<< HEAD
     width: calc(100% - #{$right-sidebar-width}); 
+=======
+    width: calc(100% - #{$right-sidebar-width});
+>>>>>>> parent of 11fe17ef (edit page *)
     padding-right: $right-sidebar-width;
-    padding-left: 3em; // **********************************************************
   }
 
   .page__inner-wrap {
