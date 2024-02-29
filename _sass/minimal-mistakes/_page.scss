@@ -39,12 +39,13 @@ body {
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$left-sidebar-width-narrow}); // dafault: right ***********
-    padding-right: $right-sidebar-width-narrow;
+    padding-right: 3em; // default: $right-sidebar-width-narrow @@@@@@@@@@@@@@@@@@@@
+
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$left-sidebar-width}); // dafault: right ******************
-    padding-right: $right-sidebar-width;
+    padding-right: 3em; // default: $right-sidebar-width @@@@@@@@@@@@@@@@@@@@@@@@@@
     padding-left: 3em; // **********************************************************
   }
 
