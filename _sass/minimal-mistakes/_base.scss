@@ -14,6 +14,7 @@ body {
   color: $text-color;
   font-family: $global-font-family; 
   line-height: 1.8;
+  font-weight: 400 // ------------------------------------------->
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -30,11 +31,11 @@ h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 700; // default: bold ----------------------------->
 }
 
 h1 {
-  margin-top: 0;
+  // margin-top: 0; ---------------------------------------------->
   font-size: $h-size-1;
 }
 
@@ -107,11 +108,13 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  // margin: 2em 1em 2em 0;
+  // padding-left: 1em;
+  // padding-right: 1em;
+  // padding-top: 1em;
+  // padding-bottom: 1em;
+  margin: 1.5em 1em 1.5em 0em;
+  padding: 0.7em 1em 0.7em 1.5em; // ---------------------------->
   background-color: $lighter-gray;
 
   border-left: 0.25em solid $blockquote-left-border-color;
@@ -125,12 +128,26 @@ blockquote {
       padding-right: 5px;
     }
   }
+
+  hr { // -------------------------------------------------->
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+
+  :first-child {
+    margin-top: 0px;
+  }
+
+  :last-child {
+    margin-bottom: 0px;
+  }
 }
 
 /* links */
 
 a {
   text-decoration: none;  
+  line-height: 1.5; // ----------------------------------------->
 
   &:focus {
     @extend %tab-focus;
@@ -166,6 +183,27 @@ pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
 }
 
+p > code, // --------------------------------------------------->
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  font-size: 0.85em;
+  padding: 0.15em 0.05em 0.15em 0.05em;
+  margin-right: 0.1em;
+  font-family: $monospace;
+  font-weight: 500;
+  background-color: $code-background-color-dark;
+  color: $text-color;
+  border-radius: 2px;
+  
+  &:before,
+  &:after {
+    letter-spacing: -0.2em;
+    content: "\00a0"; /* non-breaking space*/
+  }
+}
+
 /* horizontal rule */
 
 hr {
@@ -179,12 +217,12 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.3em; // default: 0.5 ----------------------->
 }
 
 li ul,
 li ol {
-  margin-top: 0.5em;
+  margin-top: 0.3em; // default: 0.5 -------------------------->
 }
 
 /*
