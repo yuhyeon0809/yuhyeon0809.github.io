@@ -57,7 +57,7 @@
     .page__inner-wrap {
       float: left;
       margin-top: 1em;
-      padding-top: 1em;
+      // padding-top: 1em;
       margin-left: 0;
       margin-right: 0;
       width: 100%;
@@ -455,7 +455,8 @@
   
   .comment {
     @include clearfix();
-    padding-top : 2em;
+    // padding-top : 2em;
+    margin: 1em 0;
   
     &:not(:last-child) {
       border-bottom: 1px solid $border-color;
@@ -567,8 +568,14 @@
       }
   
       .page__inner-wrap {
-        margin-top: 5em;
-  
+        // margin-top: 5em;
+        float: left;
+        margin-top: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        clear: both;
+        
         .page__content {
           margin-top: 5em;
         }
@@ -605,7 +612,7 @@
   }
   
   /* 2022.01.20 add .wide#main for lifelog page */
-  #main.wide {
-    padding-left: 7em;
-    padding-right: 7em;
-  }
+  // #main.wide {
+  //   padding-left: 7em;
+  //   padding-right: 7em;
+  // }
