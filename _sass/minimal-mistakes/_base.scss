@@ -107,13 +107,11 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  // margin: 2em 1em 2em 0;
-  // padding-left: 1em;
-  // padding-right: 1em;
-  // border-left: 0.25em solid $primary-color;
-
-  margin: 0.8em 1em 0.8em 0em;
-  padding: 0.8em 1em 0.8em 1em;
+  margin: 2em 1em 2em 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background-color: $lighter-gray;
 
   border-left: 0.25em solid $blockquote-left-border-color;
