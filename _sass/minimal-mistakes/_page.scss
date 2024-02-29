@@ -79,6 +79,7 @@ body {
 
   & + .page__meta {
     margin-top: -0.5em;
+    font-size: $type-size-6; // --------------------------------->
   }
 }
 
@@ -88,10 +89,13 @@ body {
 }
 
 .page__content {
-  h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 2px solid $border-color;
-  }
+  font-size: 0.9em; // ------------------------------------>
+  font-weight: normal; // --------------------------------->
+
+  // h2 { // ---------------------------------------------->
+  //   padding-bottom: 0.5em;
+  //   border-bottom: 2px solid $border-color;
+  // }
 
 	h1, h2, h3, h4, h5, h6 {
 		.header-link {
@@ -110,11 +114,11 @@ body {
 		}
 	}
 
-  p,
-  li,
-  dl {
-    font-size: 1em;
-  }
+  // p, // -------------------------------------------------->
+  // li,
+  // dl {
+  //   font-size: 1em;
+  // }
 
   /* paragraph indents */
   p {
