@@ -27,14 +27,18 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 2em 0 0.5em;
-  line-height: 1.2;
+  // margin: 2em 0 0.5em;
+  // line-height: 1.2;
+  // font-family: $header-font-family;
+  // font-weight: bold;
+  margin-top: 1em;
+  line-height: 1.5;
   font-family: $header-font-family;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 h1 {
-  margin-top: 0;
+  // margin-top: 0;
   font-size: $h-size-1;
 }
 
@@ -63,9 +67,9 @@ small,
   font-size: $type-size-6;
 }
 
-p {
-  margin-bottom: 1.3em;
-}
+// p {
+//   margin-bottom: 1.3em;
+// }
 
 u,
 ins {
@@ -107,11 +111,13 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  // margin: 2em 1em 2em 0;
+  // padding-left: 1em;
+  // padding-right: 1em;
+  // padding-top: 1em;
+  // padding-bottom: 1em;
+  margin: 1.5em 1em 1.5em 0em;
+  padding: 0.7em 1em 0.7em 1.5em;
   background-color: $lighter-gray;
 
   border-left: 0.25em solid $blockquote-left-border-color;
@@ -124,6 +130,19 @@ blockquote {
       content: "\2014";
       padding-right: 5px;
     }
+  }
+
+  hr {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+
+  :first-child {
+    margin-top: 0px;
+  }
+
+  :last-child {
+    margin-bottom: 0px;
   }
 }
 

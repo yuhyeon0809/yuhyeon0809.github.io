@@ -38,13 +38,15 @@ body {
 .page {
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
+    width: calc(100% - #{$left-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
+    padding-left: 3em;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
+    width: calc(100% - #{$left-sidebar-width});
     padding-right: $right-sidebar-width;
+    padding-left: 3em;
   }
 
   .page__inner-wrap {
@@ -79,6 +81,7 @@ body {
 
   & + .page__meta {
     margin-top: -0.5em;
+    font-size: $type-size-6;
   }
 }
 
@@ -88,10 +91,18 @@ body {
 }
 
 .page__content {
-  h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 2px solid $border-color;
+  font-size: 0.9em;
+  font-weight: normal;
+
+  // h2 {
+  //   padding-bottom: 0.5em;
+  //   border-bottom: 2px solid $border-color;
+  // }
+  
+  h1 {
+    font-weight: bold;
   }
+
 
 	h1, h2, h3, h4, h5, h6 {
 		.header-link {
@@ -110,11 +121,11 @@ body {
 		}
 	}
 
-  p,
-  li,
-  dl {
-    font-size: 1em;
-  }
+  // p,
+  // li,
+  // dl {
+  //   font-size: 1em;
+  // }
 
   /* paragraph indents */
   p {
@@ -173,6 +184,11 @@ body {
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
+  }
+  
+  img {
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 }
 
