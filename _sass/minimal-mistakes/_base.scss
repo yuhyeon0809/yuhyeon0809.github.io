@@ -10,9 +10,9 @@ html {
 
 body {
   margin: 5em; // default: 0
-  padding: 0.5em;
+  padding: 0;
   color: $text-color;
-  font-family: $global-font-family;
+  font-family: $customFont; // dafault: $global-font-family
   line-height: 1.5;
 
   &.overflow--hidden {
