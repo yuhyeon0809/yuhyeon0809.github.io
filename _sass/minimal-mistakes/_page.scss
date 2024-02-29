@@ -38,8 +38,9 @@ body {
 .page {
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow}); 
+    width: calc(100% - #{$right-sidebar-width-narrow} - #{5em}); 
     padding-right: $right-sidebar-width-narrow;
+    padding-left: 5em
   }
 
   @include breakpoint($x-large) {
