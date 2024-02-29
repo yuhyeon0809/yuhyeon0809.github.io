@@ -116,12 +116,6 @@
         opacity: 1;
       }
     }
-
-    p,
-    li,
-    dl {
-      font-size: 1em;
-    }
   
     /* paragraph indents */
     p {
@@ -140,15 +134,9 @@
       }
   
       &:hover {
-        // color: rgba(#000, 0.7);
-        // img {
-        //   box-shadow: 0 0 10px rgba(#000, 0.3);
-        // }
-
-        text-decoration: underline;
-
+        color: rgba(#000, 0.7);
         img {
-          box-shadow: 0 0 10px rgba(#000, 0.25);
+          box-shadow: 0 0 10px rgba(#000, 0.3);
         }
       }
     }
@@ -439,7 +427,7 @@
   }
   
   .page__comments-title {
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 10px;
     padding-top: 1.5rem;
     font-size: $type-size-6;
@@ -467,8 +455,7 @@
   
   .comment {
     @include clearfix();
-    // padding-top : 2em;
-    margin: 1em 0;
+    padding-top : 2em;
   
     &:not(:last-child) {
       border-bottom: 1px solid $border-color;
@@ -538,11 +525,11 @@
   
     @include breakpoint($large) {
       float: right;
-      width: calc(100% - #{$right-sidebar-width-narrow});
+      width: calc(100% - #{$left-sidebar-width-narrow});
     }
   
     @include breakpoint($x-large) {
-      width: calc(100% - #{$right-sidebar-width});
+      width: calc(100% - #{$left-sidebar-width});
     }
   
     a {
@@ -579,27 +566,27 @@
         padding-left: 0;
       }
   
-      // .page__inner-wrap {
-      //   margin-top: 5em;
+      .page__inner-wrap {
+        margin-top: 5em;
   
-      //   .page__content {
-      //     margin-top: 5em;
-      //   }
-      // }
+        .page__content {
+          margin-top: 5em;
+        }
+      }
   
-      // .page__title {
-      //   margin-top: 0;
-      //   margin-bottom: 0.5em;
-      //   line-height: 1.5;
-      //   font-size: $type-size-2;
-      //   text-align: center;
+      .page__title {
+        margin-top: 0;
+        margin-bottom: 0.5em;
+        line-height: 1.5;
+        font-size: $type-size-2;
+        text-align: center;
       
-      //   & + .page__meta {
-      //     margin-top: -0.5em;
-      //     font-size: $type-size-6;
-      //     text-align: center;
-      //   }
-      // }
+        & + .page__meta {
+          margin-top: -0.5em;
+          font-size: $type-size-6;
+          text-align: center;
+        }
+      }
     }
   
     .page__related {
