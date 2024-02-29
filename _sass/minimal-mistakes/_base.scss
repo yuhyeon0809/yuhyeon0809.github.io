@@ -120,10 +120,10 @@
     padding: 0.7em 1em 0.7em 1.5em;
     background-color: $lighter-gray; // default: $block-quote-background-color
   
-    border-left: 0.25em solid $primary-color;
+    border-left: 0.25em solid $blockquote-left-border-color; // default: $primary-color
   
     cite {
-      font-style: italic;
+      // font-style: italic;
   
       &:before {
         content: "\2014";
