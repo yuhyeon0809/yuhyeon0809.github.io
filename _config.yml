@@ -108,11 +108,11 @@ author:
   avatar           : "/assets/images/profile.jpg"
   bio              : "컴퓨터 비전을 공부합니다. "
   location         : "Seoul"
-  email            :
+  email            : "youhyun0809@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:uvaaaan0809@naver.com"
+      url: "mailto:youhyun0809@gmail.com"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -287,6 +287,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
