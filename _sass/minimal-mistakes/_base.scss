@@ -9,11 +9,11 @@ html {
 }
 
 body {
-  margin: 5em; // default: 0
+  margin: 0; // default: 0
   padding: 0;
   color: $text-color;
   font-family: $global-font-family; 
-  line-height: 1.7;
+  line-height: 1.8;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -112,8 +112,8 @@ blockquote {
   // padding-right: 1em;
   // border-left: 0.25em solid $primary-color;
 
-  margin: 1em 1em 1em 0em;
-  padding: 1em 1em 1em 1.5em;
+  margin: 0.8em 1em 0.8em 0em;
+  padding: 0.8em 1em 0.8em 1em;
   background-color: $lighter-gray;
 
   border-left: 0.25em solid $blockquote-left-border-color;
@@ -208,7 +208,7 @@ figure {
   img,
   iframe,
   .fluid-width-video-wrapper {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
   }
 
   img {
