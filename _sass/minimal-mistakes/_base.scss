@@ -118,7 +118,7 @@
   blockquote {
     margin: 1.5em 1em 1.5em 0em;
     padding: 0.7em 1em 0.7em 1.5em;
-    background-color: $block-quote-background-color;
+    background-color: $lighter-gray; // default: $block-quote-background-color
   
     border-left: 0.25em solid $primary-color;
   
