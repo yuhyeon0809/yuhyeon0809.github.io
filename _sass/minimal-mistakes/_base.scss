@@ -31,7 +31,7 @@ h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
-  font-weight: 700; // default: bold ----------------------------->
+  // font-weight: 700; // default: bold ----------------------------->
 }
 
 h1 {
@@ -39,6 +39,7 @@ h1 {
   margin-bottom: 1em;
   font-size: $h-size-1;
   // border-bottom: 2px solid $border-color;
+  font-weight: 700;
 }
 
 h2 {
@@ -46,22 +47,27 @@ h2 {
   margin-bottom: 1em;
   font-size: $h-size-2;
   // border-bottom: 2px solid $border-color;
+  font-weight: 700;
 }
 
 h3 {
   font-size: $h-size-3;
+  font-weight: 600;
 }
 
 h4 {
   font-size: $h-size-4;
+  font-weight: 600;
 }
 
 h5 {
   font-size: $h-size-5;
+  font-weight: 600;
 }
 
 h6 {
   font-size: $h-size-6;
+  font-weight: 600;
 }
 
 small,
