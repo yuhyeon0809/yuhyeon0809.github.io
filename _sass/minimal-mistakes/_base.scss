@@ -215,14 +215,42 @@ hr {
 
 /* lists */
 
+// ul li,
+// ol li {
+//   margin-bottom: 0.5em; 
+// }
+
+// li ul,
+// li ol {
+//   margin-top: 0.5em;
+// }
+
 ul li,
 ol li {
-  margin-bottom: 0.3em; // default: 0.5 ----------------------->
+  margin-bottom: 0.3em;
+
+  p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
 }
 
 li ul,
 li ol {
-  margin-top: 0.3em; // default: 0.5 -------------------------->
+  margin-bottom: 0.3em;
+
+  p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+ul ul {
+  padding-inline-start: 20px;
 }
 
 /*
