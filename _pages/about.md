@@ -1,5 +1,5 @@
 ---
-title: "Hi all! I'm OOOOOO👋🏻"
+title: "Hello World! 👋🏻"
 permalink: /about/
 layout: single
 comments: false
@@ -8,4 +8,3 @@ toc_sticky: true
 toc_label: "MYSELF"
 ---
 
-about me
