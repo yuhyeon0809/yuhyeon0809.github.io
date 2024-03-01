@@ -115,11 +115,12 @@ body {
 		}
 	}
 
-  // p, // -------------------------------------------------->
-  // li,
-  // dl {
-  //   font-size: 1em;
-  // }
+  p, 
+  li,
+  dl {
+    font-size: 1em;
+    margin-bottom: 1em; //---------------------------------->
+  }
 
   /* paragraph indents */
   p {
@@ -183,7 +184,7 @@ body {
 
 .page__hero {
   position: relative;
-  margin-bottom: 1em; // default: 2em -------------------------------------------->
+  margin-bottom: 2em; 
   @include clearfix;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -192,8 +193,8 @@ body {
 
   &--overlay {
     position: relative;
-    margin-bottom: 1em; // default: 2em ------------------------------------------>
-    padding: 1em 0; // default: 3em 0 -------------------------------------------->
+    margin-bottom: 2em; 
+    padding: 3em 0; 
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
