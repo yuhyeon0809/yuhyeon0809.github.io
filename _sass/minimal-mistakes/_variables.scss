@@ -168,13 +168,13 @@ $max-width: $x-large !default;
    Grid
    ========================================================================== */
 
-$left-sidebar-width-narrow: 260px !default; // default: 240 280 400
-$left-sidebar-width: 300px !default;
+$left-sidebar-width-narrow: 240px !default; // default: 240 280 400
+$left-sidebar-width: 280px !default;
 $left-sidebar-width-wide: 400px !default;
 
 /* changed right sidebar width 200 -> 240, 250 -> 280 */
-$right-sidebar-width-narrow: 220px !default;
-$right-sidebar-width: 260px !default;
+$right-sidebar-width-narrow: 240px !default;
+$right-sidebar-width: 280px !default;
 $right-sidebar-width-wide: 400px !default;
 
 /*
