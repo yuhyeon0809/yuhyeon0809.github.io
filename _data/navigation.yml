@@ -1,14 +1,28 @@
 # main links
 main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: https://yuhyeon0809.github.io/
+
   - title: "About"
-    url: "/about/"
-  - title: "Category"
-    url: "/categories/"
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    url: /about/
+
+  # - title: "GitHub"
+  #   url: https://github.com/choiiis
+
+  # - title: "Projects"
+  #   url: /projects/
+
+  - title: "Categories"
+    url: /categories/
+
+# sidebar navigation (categories)
+# 2022.02.15 sidebar update : simple ver.
+categories:
+  - title: "📚논문리뷰"
+    url: /categories/paper-review/
+  - title: "🗞️AI트렌드"
+    url: /categories/trends/
+  # - title: "Categories3"
+  #   url: /categories/categories3/
+  # - title: "Categories4"
+  #   url: /categories/categories4/
