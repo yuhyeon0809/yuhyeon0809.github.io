@@ -71,7 +71,7 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
-  font-size: $type-size-3; // ###################################
+  font-size: $type-size-4; // ###################################
 
   a {
     color: $text-color;
@@ -230,7 +230,7 @@ body {
     }
 
     .page__title {
-      font-size: $type-size-3; // default: 2
+      font-size: $type-size-4; // default: 2
 
       @include breakpoint($small) {
         font-size: $type-size-1;
