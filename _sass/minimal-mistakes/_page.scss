@@ -38,12 +38,12 @@ body {
 .page {
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow} - #{2em}); 
+    width: calc(100% - #{$right-sidebar-width-narrow}); 
     padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width} - #{2em}); 
+    width: calc(100% - #{$right-sidebar-width}); 
     padding-right: $right-sidebar-width;
   }
 
@@ -385,6 +385,8 @@ body {
 .taxonomy__title {
   margin-bottom: 0.5em;
   color: $muted-text-color;
+  font-size: $type-size-4;
+
 }
 
 .taxonomy__count {
