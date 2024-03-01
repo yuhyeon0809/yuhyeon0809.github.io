@@ -1,9 +1,9 @@
 ---
-title: "논문 리뷰"
+title: "📰AI트렌드"
 layout: category
-permalink: /categories/categories1/
+permalink: /categories/trends/
 author_profile: true
-taxonomy: Categories1
+taxonomy: trends
 sidebar:
   nav: "categories"
 ---
