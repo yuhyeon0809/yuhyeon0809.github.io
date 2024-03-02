@@ -1,9 +1,9 @@
 ---
-title: "🗞️AI트렌드"
+title: "📝개념정리"
 layout: category
-permalink: /categories/trends/
+permalink: /categories/knowledge/
 author_profile: true
-taxonomy: trends
+taxonomy: 📝개념정리
 sidebar:
   nav: "categories"
 ---
