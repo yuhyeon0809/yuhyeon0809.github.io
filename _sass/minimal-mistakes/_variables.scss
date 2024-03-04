@@ -46,18 +46,11 @@ $type-size-8: 0.625em !default; // ~10px
 
 /* headline scale */
 $h-size-1: 1.563em !default; // ~25.008px
-$h-size-2: 1.45em !default; // ~20px
-$h-size-3: 1.1em !default; // ~18px default: 1.225
-$h-size-4: 1.1125em !default; // ~17px
-$h-size-5: 1.05625em !default; // ~16.5px
-$h-size-6: 1.028125em !default; // ~16px
-
-// $h-size-1: 1.363em !default; // ~25.008px
-// $h-size-2: 1.25em !default; // ~20px
-// $h-size-3: 1.00em !default; // ~18px
-// $h-size-4: 0.9125em !default; // ~17px
-// $h-size-5: 0.85625em !default; // ~16.5px
-// $h-size-6: 0.828125em !default; // ~16px
+$h-size-2: 1.25em !default; // ~20px
+$h-size-3: 1.125em !default; // ~18px
+$h-size-4: 1.0625em !default; // ~17px
+$h-size-5: 1.03125em !default; // ~16.5px
+$h-size-6: 1em !default; // ~16px
 
 /*
    Colors
@@ -168,13 +161,13 @@ $max-width: $x-large !default;
    Grid
    ========================================================================== */
 
-$left-sidebar-width-narrow: 240px !default; // default: 240 280 400
-$left-sidebar-width: 280px !default;
-$left-sidebar-width-wide: 400px !default;
+// $left-sidebar-width-narrow: 240px !default; // default: 240 280 400
+// $left-sidebar-width: 280px !default;
+// $left-sidebar-width-wide: 400px !default;
 
 /* changed right sidebar width 200 -> 240, 250 -> 280 */
-$right-sidebar-width-narrow: 240px !default;
-$right-sidebar-width: 280px !default;
+$right-sidebar-width-narrow: 200px !default;
+$right-sidebar-width: 300px !default;
 $right-sidebar-width-wide: 400px !default;
 
 /*

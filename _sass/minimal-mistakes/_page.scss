@@ -40,13 +40,11 @@ body {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow}); 
     padding-right: $right-sidebar-width-narrow;
-    padding-left: 2em;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width}); 
     padding-right: $right-sidebar-width;
-    padding-left: 2em;
   }
 
   .page__inner-wrap {
@@ -95,10 +93,10 @@ body {
   font-size: 0.85em; 
   font-weight: normal; // --------------------------------->
 
-  // h2 { // ---------------------------------------------->
-  //   padding-bottom: 0.5em;
-  //   border-bottom: 2px solid $border-color;
-  // }
+  h2 { // ---------------------------------------------->
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid $border-color;
+  }
 
 	h1, h2, h3, h4, h5, h6 {
 		.header-link {
