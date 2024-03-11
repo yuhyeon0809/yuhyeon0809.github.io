@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "youXive"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "youXive"
+name                     : "신유현(Shin Yuhyun)"
 description              : "An amazing website."
 url                      : "https://yuhyeon0809.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
