@@ -241,7 +241,7 @@ hr {
 ul li,
 ol li {
   margin-bottom: 0.5em;
-  margin-left: 1.5em;
+  margin-left: 1em;
 
   p {
     margin-top: 0em;
@@ -252,7 +252,7 @@ ol li {
 li ul,
 li ol {
   margin-bottom: 0.5em;
-  margin-left: 1.5em;
+  margin-left: 1em;
 
   p {
     margin-top: 0em;
@@ -260,13 +260,13 @@ li ol {
   }
 }
 
-// ul {
-//   padding-inline-start: 20px;
-// }
+ul {
+  padding-inline-start: 0; // default: 20px
+}
 
-// ul ul {
-//   padding-inline-start: 20px;
-// }
+ul ul {
+  padding-inline-start: 0; // default: 20px
+}
 
 /*
    Media and embeds
