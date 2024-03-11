@@ -507,11 +507,11 @@
   font-family: $sans-serif-narrow;
   color: $gray;
   background-color: $background-color;
+  padding-left: 2em; // ----------------------------------------> 추가
   border: 1px solid $border-color;
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
-  padding-left: 2em; // ----------------------------------------> 추가
 
   .nav__title {
     color: #fff;
