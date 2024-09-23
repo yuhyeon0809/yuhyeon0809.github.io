@@ -33,7 +33,7 @@ toc_sticky: true
 ```  
 이렇게 애매한 답변을 내뱉는 VLM으로 과연 실제 로봇을 제어할 수 있을까요? 물체의 크기와 거리를 계산하지 못하고 이리저리 부딪힐 게 뻔합니다. 비싼 로봇이 금방 망가지겠죠. 
 
-사실 GPT-4V가 위와 같은 질문에 애매한 답변을 내놓는 데에는 이유가 있습니다. 바로 **Spatial Reasoning(공간적 추론) 능력**이 부족하기 때문인데요. 2024년 1월, Google Deepmind의 연구진이 이 문제를 해결하고자 수행한 연구인 SpatialVLM을 소개함니다. Spatial Reasoning이 무엇이고, 이를 어떻게 VLM에 탑재할 수 있었을까요? 
+사실 GPT-4V가 위와 같은 질문에 애매한 답변을 내놓는 데에는 이유가 있습니다. 바로 **Spatial Reasoning(공간적 추론) 능력**이 부족하기 때문인데요. 2024년 1월, Google Deepmind의 연구진이 이 문제를 해결하고자 수행한 연구인 SpatialVLM을 소개합니다. Spatial Reasoning이 무엇이고, 이를 어떻게 VLM에 탑재할 수 있었을까요? 
 
 ## Spatial Reasoning이란?
 
