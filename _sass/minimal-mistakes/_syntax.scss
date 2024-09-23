@@ -25,6 +25,9 @@ figure.highlight {
 
   > pre,
   pre.highlight {
+    white-space: pre-wrap;   /* 줄바꿈 허용 */
+    word-wrap: break-word;   /* 긴 단어가 있을 때 강제로 줄바꿈 */
+    overflow: hidden;        /* 스크롤바 숨기기 */
     margin: 0;
     padding: 1em;
   }
@@ -63,7 +66,6 @@ figure.highlight {
 }
 
 .highlight pre {
-  white-space: pre-wrap;   /* 줄바꿈 허용 */
   width: 100%;
 }
 
