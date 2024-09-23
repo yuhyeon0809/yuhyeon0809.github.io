@@ -63,6 +63,7 @@ figure.highlight {
 }
 
 .highlight pre {
+  white-space: pre-wrap;   /* 줄바꿈 허용 */
   width: 100%;
 }
 
@@ -88,7 +89,7 @@ figure.highlight {
   }
   .n {
     /* Name */
-    color: $base00;
+    color: $base00;  /* 코드블록 텍스트 색상 */
   }
   .o {
     /* Operator */
